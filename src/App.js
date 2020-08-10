@@ -6,7 +6,9 @@ import 'bootstrap-social/bootstrap-social.css'
 import './App.css'
 import {BrowserRouter} from 'react-router-dom'
 import firebase from "./firebase"
+
     ;
+
 
 class App extends Component {
     setUpRecaptura = () => {
@@ -44,10 +46,12 @@ class App extends Component {
             });
     }
   render() {
-    return(
+      return (
+         
     <BrowserRouter>
                 <Main />
-    </BrowserRouter>
+              </BrowserRouter>
+          
     )
   }
 }
